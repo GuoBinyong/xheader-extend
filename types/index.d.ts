@@ -77,9 +77,10 @@ export interface EnhanceOptions {
 /**
  * 根据增强选项创建新的 Header 的组件选项
  * @param options : EnhanceOptions      必须；增强选项
+ * @param name ?: string      可须；默认值："ByHeader"；新建 Header 组件的名字；
  * @returns ComponentOptions   返回新创建的增强后的 Header 组件选项
  */
-export function createHeader(options:EnhanceOptions):ComponentOptions;
+export function createHeader(options:EnhanceOptions,name?:string):ComponentOptions;
 
 
 /**
