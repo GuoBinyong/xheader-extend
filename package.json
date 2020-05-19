@@ -38,5 +38,10 @@
     "eslint": "^7.0.0",
     "rollup": "^2.7.2",
     "rollup-plugin-babel": "^4.2.0"
+  },
+  "dependencies": {
+    "vnode-tls": "^1.0.0",
+    "vue": "^2.6.11",
+    "vux": "^2.9.4"
   }
 }
