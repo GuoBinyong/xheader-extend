@@ -75,7 +75,7 @@ export interface EnhanceOptions {
 
 
 /**
- * 根据增强选项创建新的 Header 的组件选项
+ * 根据增强选项创建新的 Header 的组件选项，该 Header 组件支持转发 Header（导航条） 的配置，以便其它种类的导航条也能够统一应用配置
  * @param options : EnhanceOptions      必须；增强选项
  * @param name ?: string      可须；默认值："ByHeader"；新建 Header 组件的名字；
  * @returns ComponentOptions   返回新创建的增强后的 Header 组件选项
@@ -84,7 +84,7 @@ export function createHeader(options:EnhanceOptions,name?:string):ComponentOptio
 
 
 /**
- * 根据增强选项扩展原来的 XHeader 组件选项
+ * 根据增强选项扩展原来的 XHeader 组件选项，使其支持转发 Header（导航条） 的配置，以便其它种类的导航条也能够统一应用配置
  * @param options : EnhanceOptions      必须；增强选项
  * @returns ComponentOptions   返回已扩展的 XHeader 组件选项
  */
@@ -93,7 +93,7 @@ export function expandXHeader(options:EnhanceOptions):ComponentOptions;
 
 
 /**
- * 根据增加配置选项来增强指定的 Header
+ * 根据增加配置选项来增强指定的 Header，使其支持转发 Header（导航条） 的配置，以便其它种类的导航条也能够统一应用配置
  * @param Header : ComponentOptions    必须；被增强的 Header 的组件选项；
  * @param options : EnhanceOptions    必须；增强选项
  */

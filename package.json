@@ -1,6 +1,6 @@
 {
   "name": "xheader-extend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "xheader-extend 是对 Vux 中 XHeader 组件的扩展，提供了导航条选项的配置接口，使其支持转发 Header（导航条） 的配置，以便其它种类的导航条也能够统一应用配置",
   "main": "dist/xheader-extend.cjs.js",
   "module": "dist/xheader-extend.esm.js",
